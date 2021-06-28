@@ -15,6 +15,7 @@
     width: 80%;
     z-index: 100;
     overflow: hidden;
+    background-color: cornsilk;
   }
   
   .header {
@@ -29,7 +30,7 @@
   
   .content {
     padding: 1rem;
-    color: white;
+    color: cornsilk;
   }
   
   .actions {
