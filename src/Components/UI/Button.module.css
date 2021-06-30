@@ -1,9 +1,18 @@
-button {
-    width: 40%;
-    border-radius: 12px;
-    margin-left: 30%;
-    margin-top: 1.5rem;
-    padding: 1rem;
-    font-size: 1.3rem;
-    font-style: italic;
-}
+.button {
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  .button:focus {
+    outline: none;
+  }

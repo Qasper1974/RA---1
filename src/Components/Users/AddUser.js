@@ -3,6 +3,8 @@ import Card from '../UI/Card';
 import ErrorModal from '../UI/ErrorModal';
 import Button from '../UI/Button';
 
+import classes from './AddUser.module.css';
+ 
 const AddUser = props => {
 
     const [addUserName, setAddUserName] = useState('');
@@ -42,7 +44,7 @@ const AddUser = props => {
                 message={error.message}
                 onConfirm={errorHandler}></ErrorModal>
                 }
-            <Card >
+            <Card className={classes.input}>
                 <form onSubmit={onSubmitHandler}>
                     <label htmlFor='username'>User name?
                     </label>
